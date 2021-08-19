@@ -54,6 +54,10 @@
                 "settings": {
                     "bundleName": "ui5task.i18n.i18n"
                 }
+            },
+            "invoice": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "game.json"
             }
         },
         "resources": {

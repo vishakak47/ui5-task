@@ -8,9 +8,25 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content />
+            
+					<content>
+                    <HBox >
+                    <List
+                        headerText="list"
+                        width="auto"
+                        items="{invoice>/}">
+                    <items>
+                    <ObjectListItem
+                     title="{invoice>Country}"/>
+                    </items>
+                </List>
+
+                    </HBox>
+                    </content>
+
 				</Page>
 			</pages>
 		</App>
 	</Shell>
+    
 </mvc:View>
